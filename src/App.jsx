@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Canvas from './components/Canvas'
 
-function App() {
-  return (
-    <div className="App">
-      <h2>We will create an awesome game with react, redux and SVG</h2>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Canvas />
+    )
+  }
 }
 
 export default App;
